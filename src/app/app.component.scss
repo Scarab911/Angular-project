@@ -1,0 +1,45 @@
+.welcome {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  .number {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  & .positive {
+    color: green;
+  }
+  & .negative {
+    color: red;
+  }
+  & .big {
+    font-weight: 700;
+  }
+}
+.prideti,
+.atimti {
+  background-color: #ee00dd;
+  border: 2px solid darkblue;
+  padding: 15px;
+  color: darkblue;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.friends {
+  text-align: center;
+  line-height: 24px;
+}
